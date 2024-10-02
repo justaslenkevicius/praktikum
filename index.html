@@ -2,27 +2,36 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My app</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My app</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <ul>
-        <li><a id="birdButton" class="active" >Flappy bird</a></li>
-        <li><a id="calculatorButton">Calculator</a></li>
-        
-      </ul>
-      
- 
-<iframe id="flappybirdGame" src="flappy bird/flappyBird.html" height="100%" width="100%" title="Flappy Bird" style="display: block;"></iframe>
+  <ul>
+      <li><a id="birdButton" class="active">Flappy bird</a></li>
+      <li><a id="calculatorButton">Calculator</a></li>
+  </ul>
 
+  <iframe
+    id="flappybirdGame"
+    src="flappy bird/flappyBird.html"
+    height="100%"
+    width="100%"
+    title="Flappy Bird"
+    style="display: block;">
+  </iframe>
 
+  <iframe
+    id="calculatorApp"
+    src="calculator/calculator.html"
+    height="100%"
+    width="100%"
+    title="Calculator"
+    style="display: none;">
+  </iframe>
 
-<iframe id="calculatorApp" src="calculator/calculator.html" height="100%" width="100%" title="Calculator" style="display: none;"></iframe>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
